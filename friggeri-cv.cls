@@ -198,15 +198,15 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 %%%%%%%%%%%%%%
 
 \RequirePackage[absolute,overlay]{textpos}
-\setlength{\TPHorizModule}{1cm}
-\setlength{\TPVertModule}{1cm}
+\setlength{\TPHorizModule}{2cm}
+\setlength{\TPVertModule}{2cm}
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{pblue} ##1}
   }
-  \begin{textblock}{3.6}(2.0, 0.55)
-  \begin{flushright}
+  \begin{textblock}{2.6}(0.5, 0.55)
+  \begin{flushleft}
   \obeycr
 }{%
   \restorecr

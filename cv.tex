@@ -1,0 +1,116 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+	pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Guillaume}{Le Roux}
+      {Computer Engineer}
+
+      % Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+	.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+	\section{Address}
+	16, Kergaigne
+	44350 Guerande
+	France
+	~
+	\section{Tel}
+	+336 75 94 39 92
+	~
+	\section{Mail}
+	\href{mailto:guillaume@leroux.email}{\textbf{guillaume@}\\leroux.email}
+	\href{mailto:guillaume.le.roux@hotmail.fr}{\textbf{guillaume.le.roux@}\\hotmail.fr}
+	~
+	\section{Web \& Git}
+	\href{http://www.carminebenedetto.net}{carminebenedetto.net}
+	\href{https://bitbucket.org/neoben}{bitbucket.org/neoben}
+	\href{https://github.com/neoben}{github.com/neoben}
+	~
+	\section{Programming}
+	\includegraphics[scale=0.62]{img/programming.png}
+	~
+	\section{OS Preference}
+	\textbf{Linux}\includegraphics[scale=0.40]{img/5stars.png}
+	\textbf{Windows}\includegraphics[scale=0.40]{img/2stars.png}
+	~
+	\section{Personal Skills}
+	\includegraphics[scale=0.62]{img/personal.png}
+	~
+	\section{Languages}
+	\textbf{Italian}\includegraphics[scale=0.40]{img/5stars.png}
+	\textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+	\entry
+	{03/17 - Now}
+	{Software Engineer}
+	{Smile Open Source Solutions}
+	{Design and development of algorithms, solutions and high speed mobility           schemes for Wireless Mesh Networks. Design and development of embedded software     for Wireless Network devices.\\}
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+	\entry
+	{2014 - 2017}
+	{Master's Degree in Computer Engineering}
+	{Université Rennes 1 - France}
+	{Curriculum Networking and Multimedia.\\
+	Main subjects: Network Applications, Systems Architecture and Security, Mobile Applications, Multemedia Information            Processing.\\
+	\emph{Title of the Thesis: "A Handoff Algorithm based on Link Quality Prediction for Mass Transit Wireless Mesh Networks"      .}\\
+	\emph{Relators: Prof. Enzo Mingozzi, Ing. Carlo Vallati, Prof. Luciano Lenzini.}\\}
+	\entry
+	{2011 - 2014}
+	{ Three-year university degree }
+	{Université Rennes 2 - France}
+	{Main subjects: Matematics and Physics, Programming, Operational Research, Telecommunication Systems, Digital and Analogical Electronics.\\
+	\emph{Title of the Thesis: "Development, Management and Migrations of web contents and applications".}\\
+	\emph{Thesis activity carried out during an internship period at Atitlan Engineering SRL.}\\}
+\end{entrylist}
+
+
+\section{Other Info}
+For the Italian job market:\\
+\emph{Si autorizza il trattamento delle informazioni contenute nel curriculum in conformità alle disposizioni previste dal d.lgs. 196/2003. Si dichiara altresì di essere consapevole che, in caso di dichiarazioni non veritiere, si è passibili di sanzioni penali ai sensi del DPR 445/00 oltre alla revoca dei benefici eventualmente percepiti.}
+\\
+\begin{flushleft}
+	\emph{January 14th, 2014}
+\end{flushleft}
+\begin{flushright}
+	\emph{Guillaume Le Roux}
+\end{flushright}
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}

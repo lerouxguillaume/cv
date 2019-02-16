@@ -1,6 +1,6 @@
 # Fdb version 3
-["biber cv"] 1549212762 "cv.bcf" "cv.bbl" "cv" 1549228963
-  "cv.bcf" 1549228931 87948 383605f419ea5154d3d7f3c94310bd4e ""
+["biber cv"] 1550332784 "cv.bcf" "cv.bbl" "cv" 1550333700
+  "cv.bcf" 1550333700 87948 383605f419ea5154d3d7f3c94310bd4e ""
   (generated)
   "cv.blg"
   "cv.bbl"
@@ -30,7 +30,7 @@
   (generated)
   "cv.dvi"
   "cv.log"
-["pdflatex"] 1549228963 "cv.tex" "cv.pdf" "cv" 1549228963
+["pdflatex"] 1550333698 "cv.tex" "cv.pdf" "cv" 1550333700
   "/etc/texmf/web2c/texmf.cnf" 1549210179 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -176,20 +176,20 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1549211850 3704340 ca03ca81396380c64d0dd6fe81998759 ""
-  "cv.aux" 1549228931 653 120875a960e9c7da2e1a6d6d7ccd37cd ""
-  "cv.bbl" 1549212762 466 5e94f251ea8a419bbae6173a1e9a9c1d "biber cv"
-  "cv.out" 1549228922 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv.run.xml" 1549228931 2363 19c5b0d72db5bea3ade70136c021935e ""
-  "cv.tex" 1549228961 5100 733d37c454560e72c0bec063e9dca2c4 ""
-  "friggeri-cv.cls" 1549227773 7256 576ee54d79e82f3092a5293833424c9e ""
+  "cv.aux" 1550333700 1086 0c15c01a64532b681880adb435d483c5 ""
+  "cv.bbl" 1550332785 466 5e94f251ea8a419bbae6173a1e9a9c1d "biber cv"
+  "cv.out" 1550333700 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv.run.xml" 1550333700 2363 19c5b0d72db5bea3ade70136c021935e ""
+  "cv.tex" 1550333694 4369 bd171107717f94962517308f76c691ec ""
+  "friggeri-cv.cls" 1550333079 7255 89273c1be2608ff35121465b54bfdfb3 ""
   "img/2stars.png" 1489130932 1378 ffb19893438aa6116b2982d3faab75aa ""
   "img/3stars.png" 1489130932 1221 34b0a03eb64cc6f2a9dac3328059e0e1 ""
   "img/4stars.png" 1489130932 1272 f76054831795b97b778bd4cbed6f620d ""
   "img/5stars.png" 1489130932 1113 ee9565f33d100444e613f962d78a0388 ""
   (generated)
   "cv.log"
+  "cv.bcf"
   "cv.run.xml"
+  "cv.out"
   "cv.pdf"
   "cv.aux"
-  "cv.bcf"
-  "cv.out"

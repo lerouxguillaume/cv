@@ -210,7 +210,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \obeycr
 }{%
   \restorecr
-  \end{flushright}
+  \end{flushleft}
   \end{textblock}
   \let\section\oldsection
 }

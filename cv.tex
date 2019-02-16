@@ -1,5 +1,4 @@
-%!TEX TS-program = xelatex
-\documentclass[]{friggeri-cv}
+\documentclass{friggeri-cv}
 \usepackage{afterpage}
 \usepackage{hyperref}
 \usepackage{color}
@@ -17,15 +16,14 @@
 \definecolor{pblue}{HTML}{0395DE}
 
 \begin{document}
-\header{Guillaume}{Le Roux}
+\header{Guillaume } {Le Roux}
       {Computer Engineer}
 
       % Fake text to add separator      
 \fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
-	....zefezl.
+	.....
 }}
 
-% In the aside, each new line forces a line break
 \begin{aside}
 	\section{Address}
 	16, Kergaigne
@@ -38,6 +36,7 @@
 	\section{Mail}
 	\href{mailto:guillaume@leroux.email}{\textbf{guillaume@}\\leroux.email}
 	\href{mailto:guillaume.le.roux@hotmail.fr}{\textbf{guillaume.le.roux@}\\hotmail.fr}
+	~
 	\section{Programming}
 	\includegraphics[scale=0.40]{img/5stars.png}\\\textbf{Php, Symfony, HTML, CSS, SQL, git}
 	\includegraphics[scale=0.40]{img/4stars.png}\\\textbf{Java, Javascript, Apache2}
@@ -48,34 +47,13 @@
 	\textbf{Linux}\includegraphics[scale=0.40]{img/5stars.png}
 	\textbf{Windows}\includegraphics[scale=0.40]{img/2stars.png}
 	~
-	\section{Personal Skills}
-	documentclass[tikz,border=2mm]{standalone}
-	\begin{tikzpicture}[font=\sffamily\bfseries\large,
-     text=white,
-     border/.style={line width=14mm}]
-\foreach \angle/\col [remember=\angle as \last (initially 0)] in
-    {90/blue, 125/cyan, 160/green!30!black, 210/green, 270/orange, 360/red}{
-        \draw[\col, border] (\last:2cm)
-             arc[start angle=\last, end angle=\angle, radius=2cm];
-        \draw[white, line width=1mm] (\last:1.3)--++(\last:1.4);
-}
-\node[line width=1mm, draw, circle, minimum width=2.5cm, white, fill=blue!80] {C/C++};
-\node at (60:2cm) {Python};
-\node at (108:2cm) {Other};
-\node at (143:2cm) {Java};
-\node[text width=1cm, align=center, font=\sffamily\bfseries\small] at (185:2cm)
-    {HTML CSS JS PHP};
-\node at (240:2cm) {Bash};
-\node at (295:2cm) {Android};
-\end{tikzpicture}
-	~
 	\section{Languages}
 	\textbf{French}\includegraphics[scale=0.40]{img/5stars.png}
 	\textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
 	~
 	\section{Hobbies}
-    	\item Sailing as Skipper
-    	\item Sports, Handball in club
+\item Sailing as Skipper
+\item Sports, Handball in club
 \end{aside}
 
 \section{Experience}
@@ -84,9 +62,12 @@
 	{03/17 - Now}
 	{Software Engineer}
 	{Smile Open Source Solutions}
-	{Design and development of algorithms, solutions and high speed mobility
-	schemes for Wireless Mesh Networks. Design and development of embedded software     
-	for Wireless Network devices.\\}
+	{
+		Responsible for end to end website for different customer \\
+	 	Elephorm : Initiated the rework of their website in Symfony in a team of 4 developper in an agil methodology \\
+		Suez : I made a POC for a Progressive Web App with a front in ReactJs and a Back in Go \\
+		Axelliance : I've worked for a year in their office, i was in charge of creating new WebSite and existing park maintenance \\
+	}
 \end{entrylist}
 
 \section{Education}

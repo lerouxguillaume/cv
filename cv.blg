@@ -1,9 +1,9 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'cv.blg'
-[18] biber:313> INFO - === sam. févr. 16, 2019, 16:59:45
-[31] Biber.pm:371> INFO - Reading 'cv.bcf'
-[72] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[76] Utils.pm:169> WARN - The file 'cv.bcf' does not contain any citations!
-[81] bbl.pm:617> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
-[81] bbl.pm:720> INFO - Output to cv.bbl
-[81] Biber.pm:110> INFO - WARNINGS: 1
+[18] biber:313> INFO - === dim. févr. 17, 2019, 16:21:07
+[32] Biber.pm:371> INFO - Reading 'cv.bcf'
+[74] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[78] Utils.pm:169> WARN - The file 'cv.bcf' does not contain any citations!
+[82] bbl.pm:617> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[83] bbl.pm:720> INFO - Output to cv.bbl
+[83] Biber.pm:110> INFO - WARNINGS: 1

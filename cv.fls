@@ -267,6 +267,7 @@ INPUT cv.out
 OUTPUT cv.out
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
+INPUT profil.png
 INPUT img/5stars.png
 INPUT img/4stars.png
 INPUT img/3stars.png
@@ -275,6 +276,7 @@ INPUT img/5stars.png
 INPUT img/2stars.png
 INPUT test.pdf
 INPUT img/5stars.png
+INPUT img/4stars.png
 INPUT img/4stars.png
 INPUT cv.aux
 INPUT cv.run.xml

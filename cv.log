@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.2.3)  17 FEB 2019 16:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.7.7)  7 JUL 2019 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1389,43 +1389,43 @@ File: img/4stars.png Graphic file (type bmp)
 File: img/4stars.png Graphic file (type bmp)
 <img/4stars.png>
 
-Overfull \hbox (11.53612pt too wide) in alignment at lines 60--64
+Overfull \hbox (16.51614pt too wide) in alignment at lines 59--63
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--88
+Underfull \hbox (badness 10000) in paragraph at lines 66--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--105
+Underfull \hbox (badness 10000) in paragraph at lines 89--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--114
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
 
  []
 
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 115.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 114.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
@@ -1433,7 +1433,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  38916 strings out of 493007
  756312 string characters out of 6136720
- 1266060 words of memory out of 5000000
+ 1266057 words of memory out of 5000000
  42458 multiletter control sequences out of 15000+600000
  532189 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
